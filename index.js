@@ -1,6 +1,5 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
-const genMarkdown = require('./utils/generateMarkdown');
 const generateMarkdown = require('./utils/generateMarkdown');
 const { writeFile } = require('fs').promises;
 // TODO: Create an array of questions f.or user input
@@ -33,7 +32,7 @@ const userPrompt = () =>{
         },
         {
             type: 'input',
-            name: 'test instructions',
+            name: 'test',
             message: 'write test instructions here',
           },
     ])
