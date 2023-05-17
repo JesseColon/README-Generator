@@ -4,7 +4,7 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const { writeFile } = require('fs').promises;
 // TODO: Create an array of questions f.or user input
 const userPrompt = () =>{
-    inquirer.prompt([
+  return  inquirer.prompt([
       {
           type: 'input',
           name: 'title',
@@ -31,13 +31,18 @@ const userPrompt = () =>{
           message: 'write contribution guidlines here',
         },
         {
+          type: 'list',
+          name: 'License',
+          message: 'Select a license',
+          choices: ['MIT', 'Apache 2.0', 'Eclipse']
+        },
+        {
             type: 'input',
             name: 'test',
             message: 'write test instructions here',
           },
     ])
 };
-
 // TODO: Create a function to initialize app
 const init = () => {
     userPrompt()
