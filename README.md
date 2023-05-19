@@ -26,9 +26,10 @@
    MIT 
    https://opensource.org/licenses/MIT
 
-## Credits
+## links
 
-* 
+* video: https://drive.google.com/file/d/1zgoFRIxYMG-KacRvvX4Yy3cZjyeiPpGi/view
+* GitHub: https://github.com/JesseColon/README-Generator
 
 ## Badges
 
