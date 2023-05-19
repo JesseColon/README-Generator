@@ -1,32 +1,46 @@
-# COME ON
+# README-Generator
 
 ## Description
 
-* test
+* with this project id like to create a way to easily create README.md files for this and all futore projects
 
-## Instalation
+## Table of Contents
 
-* test
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+* [Badge](#badge)
+* [Test](#test)
+* [Questions](#questions)
+
+## Installation
+
+* none
 
 ## Usage
 
-* test
+* create a README.md
+
+## License
+   MIT 
+   https://opensource.org/licenses/MIT
 
 ## Credits
 
-* test
-
-## license
-
-* undefined
-
-* undefined
+* 
 
 ## Badges
 
-* undefined
+* [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Test
-    
-* test
+
+* 
+
+## Questions
+
+For any questions, please contact me at either of the following:
+* https://www.github.com/JesseColon
+* jay.alexandervii@gmail.com
 

@@ -1,6 +1,10 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
-const generateMarkdown = require('./utils/generateMarkdown');
+const generateMarkdown = require('./utils/generateMarkdown.js');
+const { renderLicenseBadge, renderLicenseLink ,renderLicenseSection } = require('./utils/generateMarkdown.js')
+
+
+
 const { writeFile } = require('fs').promises;
 // TODO: Create an array of questions f.or user input
 const userPrompt = () =>{
@@ -31,16 +35,27 @@ const userPrompt = () =>{
           message: 'write contribution guidlines here',
         },
         {
+          type: 'input',
+          name: 'test',
+          message: 'write test instructions here',
+        },
+        {
+          type: 'input',
+          name: 'github',
+          message: 'enter our GitHub here',
+        },
+        {
+          type: 'input',
+          name: 'email',
+          message: 'enter our Email here',
+        },
+        {
           type: 'list',
-          name: 'License',
+          name: 'license',
           message: 'Select a license',
           choices: ['MIT', 'Apache 2.0', 'Eclipse']
         },
-        {
-            type: 'input',
-            name: 'test',
-            message: 'write test instructions here',
-          },
+       
     ])
 };
 // TODO: Create a function to initialize app
@@ -52,3 +67,5 @@ const init = () => {
 };
 // Function call to initialize app
 init();
+
+
